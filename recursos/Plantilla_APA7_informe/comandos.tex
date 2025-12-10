@@ -1,0 +1,12 @@
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}  % Párrafo con salto de línea
+
+\setcounter{secnumdepth}{3} % Numeración de secciones
+
+\setcounter{table}{0} % Reinicia el contador de tablas
+
+\addto\captionsspanish{%
+    \renewcommand{\contentsname}{\large Tabla de contenido}
+    \renewcommand{\listtablename}{\large Lista de tablas}
+    \renewcommand{\listfigurename}{\large Lista de figuras}
+    \renewcommand\refname{\large\textbf{Referencias}}
+}

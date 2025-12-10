@@ -1,0 +1,24 @@
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib]{apa7}
+
+\input{packages.tex}
+\input{comandos.tex}
+
+\begin{document}
+\input{portada.tex}
+
+\maketitle
+
+\pagenumbering{roman}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+\input{cuerpo.tex}
+
+\newpage
+\thispagestyle{empty}
+\nocite{*}                      % Muestra TODAS las referencias del .bib
+\bibliography{mibibliografia}   % La bibliografia usa BibTex
+
+\end{document}
