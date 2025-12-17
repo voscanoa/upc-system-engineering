@@ -1,4 +1,4 @@
-# Tabla de Ejercicios Semana 1
+# Tabla de Ejercicios SECUENCIALES
 
 Soluciones implementadas en **Python**
 
